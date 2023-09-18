@@ -1,0 +1,107 @@
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Nunito, 'Courier New', Courier, Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;    
+}
+a {
+    color: var(--color-link);
+}
+:root {
+    --color-background: #0d0a11;          /* Background color for the whole page */
+    --color-secondary_background: #3e126b;          /* Secondary Background color for the whole page */
+    --color-lighten_secondary_background: rgba(62, 18, 107, 0.400);
+    --color-text: #ffe4c4;             /* Default text color */
+    --color-success: #28a745;       /* Color for success or positive elements */
+    --color-warning: #ffc107;       /* Color for warnings or alerts */
+    --color-error: #dc3545;         /* Color for errors or critical messages */
+    --color-info: #17a2b8;          /* Color for informational messages */
+    --color-link: #007bff;          /* Color for hyperlink text */
+    --color-custom_white: #f2f2f2;          /* Custom color for white */
+    --color-lighten_black: rgba(0, 0, 0, 0.400);          /* Black but low opacity */
+    --color-lighten_white: rgba(255, 255, 255, 0.400);          /* White but low opacity */
+}
+/* margin/padding: top_px right_px bottom_px left_px; */
+
+/* Back to Top Button */
+#back-to-top-btn {
+    align-items: center;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    bottom: 20px;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: var(--color-white);
+    cursor: pointer;
+    display: none;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    outline: none;
+    padding: 10px 20px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    transition: background-color 0.13s ease-in-out, box-shadow 0.13s ease-in-out, color 0.13s ease-in-out, opacity 0.13s ease-in-out;
+    z-index: 99;
+
+/* Safari and Safari on iOS support */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#back-to-top-btn:hover {
+    background-color: #1C84FF;
+}
+#back-to-top-btn:active {
+    background-color: #006AE8;
+}
+#back-to-top-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 118, 255, 0.4);
+}
+
+
+img {
+    display: block;
+    margin: 3% auto;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.topic-title {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title-sub {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+
+.footer {
+    background-color: var(--color-background);
+    color: var(--color-background);
+    padding: 1px;
+    text-align: center;
+}
